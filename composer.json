@@ -1,0 +1,39 @@
+{
+    "name": "ivansotelo/openpay-cashier",
+    "description": "Openpay Cashier provides an expressive, fluent interface to Openpays's subscription billing services.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^5.7|^6.0",
+        "illuminate/config": "^5.7|^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.4",
+        "orchestra/testbench": "~3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "IvanSotelo\\OpenpayCashier\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IvanSotelo\\OpenpayCashier\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IvanSotelo\\OpenpayCashier\\OpenpayCashierServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Sotelo",
+            "email": "isotelo@controlla.com.mx"
+        }
+    ],
+    "minimum-stability": "dev"
+}
