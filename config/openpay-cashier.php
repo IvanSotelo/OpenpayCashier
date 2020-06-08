@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'path' => env('CASHIER_PATH', 'Openpay'),
+    'path' => env('OPENPAY_CASHIER_PATH', 'Openpay'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'currency_locale' => env('CASHIER_CURRENCY_LOCALE', 'en'),
+    'currency_locale' => env('OPENPAY_CASHIER_CURRENCY_LOCALE', 'en'),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'payment_notification' => env('CASHIER_PAYMENT_NOTIFICATION'),
+    'payment_notification' => env('OPENPAY_CASHIER_PAYMENT_NOTIFICATION'),
 
     /*
     |--------------------------------------------------------------------------
@@ -112,7 +112,7 @@ return [
     |
     */
 
-    'paper' => env('CASHIER_PAPER', 'letter'),
+    'paper' => env('OPENPAY_CASHIER_PAPER', 'letter'),
 
     /*
     |--------------------------------------------------------------------------
@@ -125,6 +125,6 @@ return [
     |
     */
 
-    'logger' => env('CASHIER_LOGGER'),
+    'logger' => env('OPENPAY_CASHIER_LOGGER'),
 
 ];
