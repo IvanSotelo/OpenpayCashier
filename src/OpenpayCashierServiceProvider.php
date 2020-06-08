@@ -22,7 +22,7 @@ class OpenpayCashierServiceProvider extends ServiceProvider
 
         // Stripe::setAppInfo(
         //     'Laravel Cashier',
-        //     Cashier::VERSION,
+        //     OpenpayCashier::VERSION,
         //     'https://laravel.com'
         // );
 
