@@ -78,8 +78,8 @@ class OpenpayCashier
     public static function openpayOptions(array $options = [])
     {
         return array_merge([
-            'api_key' => config('openpay-cashier.secret'),
-            'openpay_version' => static::OPENPAY_VERSION,
+            'id' => config('openpay-cashier.id'),
+            'secret' => config('openpay-cashier.secret')
         ], $options);
     }
 

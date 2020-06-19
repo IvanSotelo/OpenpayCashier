@@ -1,4 +1,3 @@
- 
 <?php
 
 return [
@@ -14,7 +13,7 @@ return [
     |
     */
 
-    'key' => env('OPENPAY_KEY'),
+    'id' => env('OPENPAY_ID'),
 
     'secret' => env('OPENPAY_SECRET'),
 
