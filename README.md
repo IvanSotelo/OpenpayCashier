@@ -9,7 +9,7 @@
 
 ## Introduction
 
-OpenpayCashier provides an expressive, fluent interface to [Openpay's](https://stripe.com) subscription billing services. It handles almost all of the boilerplate subscription billing code you are dreading writing. In addition to basic subscription management, OpenpayCashier can handle coupons, swapping subscription, subscription "quantities", cancellation grace periods, and even generate invoice PDFs.
+OpenpayCashier provides an expressive, fluent interface to [Openpay's](https://openpay.com) subscription billing services. It handles almost all of the boilerplate subscription billing code you are dreading writing. In addition to basic subscription management, OpenpayCashier can handle coupons, swapping subscription, subscription "quantities", cancellation grace periods, and even generate invoice PDFs.
 
 ## License
 
